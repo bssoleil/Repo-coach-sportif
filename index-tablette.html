@@ -2,37 +2,64 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<link rel="icon" type="image/png" href="logo-coach-sportif.png" />
-	        <link rel="stylesheet" type="text/css" media="screen and (min-width: 769px)" href="desktop.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> 
-		<title>Accueil</title>
+		<meta name="viewport" content="width=device,initial-scale=1">
+		<title>Index Tablette</title>
+
+			<link rel="icon" type="image/png" href="logo-coach-sportif.png" />
+			
+	        <link rel="stylesheet" type="text/css" media="screen and (min-width: 769px)" href="tablette.css">
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	</head>
 	<body>
-		<figure>
-			<img src="logo-coach-sportif.png" alt="logo coach sportif">
-
-		</figure><nav>
-			<ul>
-				<li> <a href="index-desktop.html">Accueil</a></li>
-				<li> <a href="tarif-desktop">Tarif</a></li>
-				<li> <a href="inscription-desktop">Inscription</a></li>
-				<li> <a href="contact-desktop.html">Contact</a></li>
-				<li> <a href="apropos">A Propos</a></li>
-
-			</ul>				
-		</nav>
-
+		
+			<figure class="logo">
+				<img src="logo-coach-sportif.png" alt="logo coach sportif">
+				<!--
+				<div id="hamburger">
+					<div id="hamburger-content"></div>
+					-->
+		</figure><nav>				
+				<label for="menu-mobile" class="menu-mobile"></label>
+				<!--
+				<input type="checkbox id="menu-mobile" role="button">
+				-->
+				<button id="hamburger-button"><i class="fas fa-bars"></i></button>
+				
+				<ul>
+					<li> <a href="index-tablette.html">Accueil</a></li>
+					<li> <a href="tarif-tablette">Tarif</a></li>
+					<li> <a href="inscription-tablette">Inscription</a></li>
+					<li> <a href="contact-tablette.html">Contact</a></li>
+					<li> <a href="apropos-tablette.html">A Propos</a></li>
+				</ul>
+							
+			</nav>
+		
+	
+		<!--	
+		</div>
+		-->
+		<!--
+		<button id="hamburger-button"> &#9776; </button>
+		<div id="hamburger-sidebar">
+			<div id="hamburger-sidebar-body"></div>
+		</div>
+		<div id="hamburger-overlay"></div>
+		</div>
+		-->
 		<header>
 
 			<figure class="presentation-coach-sportif">
 
 				<img src="img-header-coach-sportif.jpg" alt="coach-présentation" class="presentation-coach-sportif">
 				<figcaption>
+				 <a href="#" id="coach-présentation"></a>
 
 				<h1> Coach Kevin</h1>	
 				<h2>Mon seul objectif est que vous atteignez les votres</h2>
 				</figcaption>
-
+				   
 			</figure>
 
 		</header>
@@ -41,7 +68,8 @@
 
 			<figure>
 
-				<img src="coach-présentation" alt="coach-présentation">
+				<img src="img--coach-sportif.jpg" alt="coach-présentation" class="coach-sportif">
+				 <a href="#" id="coach présentation"></a>
 
 			</figure>
 
